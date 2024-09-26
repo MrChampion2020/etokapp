@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "etok",
+    "slug": "etok",
+    "version": "1.0.0",
+    "orientation": ["portrait", "landscape"],
+    "icon": "./assets/cover.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cover.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "orientation": ["portrait", "landscape"]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cover.png",
+        "backgroundColor": "#ffffff",
+        "orientation": ["portrait", "landscape"]
+      },
+      "package": "com.etok.etok"
+    },
+    "web": {
+      "favicon": "./assets/cover.png",
+      "orientation": ["portrait", "landscape"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b096ef08-394c-4fcf-9b92-2a99ad39f806"
+      }
+    }
+  }
+}
